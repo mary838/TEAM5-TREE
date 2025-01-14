@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donation</title>
+    <link rel="stylesheet" href="style/donate.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- Logo/Brand -->
+         <div class="logo" style="width: 100px; height: 50px;">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="assets/img/logo.jpg"
+            alt="Logo"
+            width="30 background-color: rgba(0, 0, 0, 0.959);"
+            height="30"
+            class="d-inline-block align-text-top rounded-circle"
+          />
+          <h4 class="fs-6">Nature</h4>
+        </a>
+      </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tree page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Seed page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-bg-warning rounded-4 href="#">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="position-relative"
+      style="
+        background-image: url(assets/img/tree\ donate\ page.jpg);
+        background-size: cover;
+        height: 100vh;
+      "
+    >
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-50"
+      ></div>
+      <div
+        class="position-absolute top-50 start-50 translate-middle text-white"
+      >
+      
+        <div class="donate-container">
+          <h1 class="text-center fs-1">Make A Donate</h1>
+          <p class="text-center">
+            Your donate can make our world going to be <br />
+            better and you will be a part of taking care of it!!
+            <br />Thanks!!
+          </p>
+          <h2>Donate Now</h2>
+          <form>
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="Full Name's"
+                required
+              />
+            </div>
+            <div class="d-flex gap-4 h-100">
+              <div class="mb-3 w-50">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="mb-3 w-50">
+                <label for="phone" class="form-label">Phone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+            </div>
+            <div class="d-flex gap-4">
+              <div class="mb-3 w-50">
+                <label for="company" class="form-label">Company </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="company"
+                  placeholder="Company's (If)"
+                />
+              </div>
+              <div class="mb-3 w-50">
+                <label for="amount" class="form-label">Amount ($)</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="amount"
+                  placeholder="Amount $"
+                  required
+                />
+              </div>
+            </div>
+            <div class="text-center mt-3">
+              <button type="submit" class="btn btn-light px-5">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+     <div class="container-thank">
+      <h1>THANK YOU FOR DONATED US </h1>
+      <i class="fa-solid fa-envelope"></i>
+     </div>
+  </body>
+</html>

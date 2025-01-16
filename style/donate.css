@@ -16,19 +16,55 @@ body {
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.842);
 }
-
 .donate-container h1,
 .donate-container h2 {
   text-align: center;
 }
-
 .form-label {
   color: white;
 }
-.container-thank {
-  background-color: black;
-  background-image: url(/TEAM5-TREE/assets/img/treethank.jpg);
-  background-position: center;
-  height: 100vh;
-  opacity: 0.5;
+#donate-container {
+  max-width: 5000px;
+  margin: 50px auto;
+}
+.position-relative {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  #donate-container h1 {
+    font-size: 2rem;
+  }
+  #donate-container p {
+    font-size: 1rem;
+  }
+}
+
+.footer {
+  background-color: #48a368; /* Match the green color */
+  color: white;
+  padding: 40px 20px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer-logo img {
+  width: 80px;
+}
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+.subscribe-input {
+  max-width: 300px;
+}
+.form-check-label {
+  font-size: 0.9rem;
 }

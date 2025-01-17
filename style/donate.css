@@ -1,7 +1,9 @@
-body {
-  /* margin: 0;
-  padding: 0;
-  min-height: 100vh; /* Ensures the body always takes the full viewport height */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Slabo+27px&display=swap");
+
+.body {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 .donate-container {
   max-width: 500px;
@@ -67,4 +69,9 @@ body {
 }
 .form-check-label {
   font-size: 0.9rem;
+}
+
+/* header */
+.box {
+  font-family: "Barlow Condensed", sans-serif;
 }
